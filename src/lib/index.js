@@ -105,7 +105,6 @@ export function getPath(obj, path = "") {
     .reduce((out, key) => (out ? out[key] : undefined), obj);
 }
 
-
 /**
  * Base64 decodes data attributes for various resource types
  * @param {Object} res The input resource json object
