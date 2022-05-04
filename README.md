@@ -7,9 +7,9 @@
 
 ## Welcome to Patient Browser
 
-The Alvearie Patient Browser is an easy to use, standalone application that allows easy access to data stored in a FHIR server.  The UI displays the data at the top level organized by patient.  You can then drill into other resources related to that patient.  Navigation is page by page or patient by patient.
+The LinuxForHealth Patient Browser is an easy to use, standalone application that allows easy access to data stored in a FHIR server.  The UI displays the data at the top level organized by patient.  You can then drill into other resources related to that patient.  Navigation is page by page or patient by patient.
 
-The Alvearie Patient Browser app is based on the [SMART on FHIR Patient Browser](https://github.com/smart-on-fhir/patient-browser)
+The LinuxForHealth Patient Browser app is based on the [SMART on FHIR Patient Browser](https://github.com/smart-on-fhir/patient-browser)
 
 ## How to deploy
 
