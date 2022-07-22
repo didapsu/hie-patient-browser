@@ -2,15 +2,27 @@
 
 .app-header {
     color          : mix(@color-bg-selection, #000, 60%);
-    padding        : 5px 0 0;
+    /*padding        : 5px 0 0;*/
     background     : linear-gradient(#DFDFDF, #EEE 5px, #e2e2e2);
     position       : relative;
     z-index        : 3;
     box-shadow     : 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.5);
-    text-shadow    : 0 1px 0 #FFF;
+    /*text-shadow    : 0 1px 0 #FFF;*/
     display        : flex;
     flex-shrink    : 0;
     flex-direction : column;
+
+    .hie-header {
+        padding: 8px;
+        margin-bottom: 8px;
+        box-shadow: -13px 3px 0px -6px #e3e3e3,
+        13px 3px 0px -6px #e3e3e3,
+         0px 1px 0px 2px #e3e3e3,
+         0 2px 0 2px rgba(0, 0, 0, 0.2),
+         0 4px 5px 0 rgba(0, 0, 0, 0.4),
+         0px 1px 1px -1px #FFF inset,
+         0px -17px 0px -5px rgba(0, 0, 0, 0.05) inset;
+    }
 
     .nav.nav-tabs {
         padding-left: 5px;

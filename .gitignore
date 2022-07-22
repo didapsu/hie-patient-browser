@@ -11,4 +11,4 @@ selenium-debug.log
 /build/config/*-custom.json5
 src/.DS_Store
 .idea/*.*
-build/config/default.json5
+#build/config/default.json5

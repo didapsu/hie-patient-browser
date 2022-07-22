@@ -12,9 +12,7 @@
     "clean": "cross-os do-clean",
     "start": "http-server build",
     "postinstall": "npm run build",
-    "build": "if-env NODE_ENV=production && npm run build:prod || npm run build:dev",
-    "build:dev": "npm run clean && webpack --hide-modules && webpack-dev-server",
-    "build:prod": "npm run clean && webpack",
+    "build": "npm run clean && webpack",
     "test:e2e": "node ./selenium-download.js && ./node_modules/nightwatch/bin/nightwatch"
   },
   "cross-os": {

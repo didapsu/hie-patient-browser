@@ -253,6 +253,7 @@ export default class Header extends React.Component
 
         return (
             <div className="app-header">
+                <div className="text-center bg-primary hie-header">Songkhla Health Information Exchange</div>
                 <div style={{ flexDirection: "row" }}>
                     <label className="pull-right advanced-label text-warning">
                         Advanced <span className="hidden-xs">Mode </span> <input
