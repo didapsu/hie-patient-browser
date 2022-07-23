@@ -1,7 +1,7 @@
 {
   server: {
     type: "R4",
-    url: "https://127.0.0.1:9443/fhir-server/api/v4",
+    url: "https://localhost:9443/fhir-server/api/v4",
   },
   patientsPerPage: 100,
   authEnabled: false,
