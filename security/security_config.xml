@@ -6,6 +6,5 @@
                         	</security-role>
         	</application-bnd>
     	</webApplication>
-
 	<webAppSecurity allowFailOverToBasicAuth="true" singleSignonEnabled="true"/>
 </server>
